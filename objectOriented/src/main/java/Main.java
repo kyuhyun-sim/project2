@@ -19,8 +19,7 @@ public class Main {
         bus2.passengerStatus();
 
 
-<<<<<<< HEAD
-=======
+
         Texi texi = new Texi();
 
 
@@ -35,8 +34,6 @@ public class Main {
 
 
 
-
->>>>>>> 7bec2809847315f2ab6590c284df55110446b1f4
 
     }
 }
