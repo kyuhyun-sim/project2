@@ -22,19 +22,19 @@ public class Main {
         texi.peopleride1(0);    //불가능 뜨면 밑에 전부 지우는거 어케하지? //태운 손님 0일시 일반 1일시 운행 중
         texi.peopleride2();
         texi.texiStatus();
-<<<<<<< HEAD
+
         texi.passengerBoarding1(1);
         texi.acceleration(10);
         texi.speedControlUp(30);
         texi.speedControlDown(50);
         texi.destinationRequest(11);
         texi.rateCalculation();
-=======
+
         texi.passengerBoarding1(5);         //탑승인원 4명까지 가능
         texi.acceleration(10);                  //현재속도
         texi.speedControlUp(30);                   //속도 업
         texi.speedControlDown(50);                 //속도 다운
->>>>>>> 77bd23976f2ef9978b32c9fa31e2c62f5ce27653
+
 
 
 
