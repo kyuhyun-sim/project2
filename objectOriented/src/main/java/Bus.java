@@ -80,7 +80,7 @@ public class Bus {
     }
 
     void revenue(){
-        System.out.println("현재까지" + money + "원의 수익을 벌어들였습니다.");
+        System.out.println("지금까지 " + money + "원의 수익을 벌어들였습니다.");
     }
 
 

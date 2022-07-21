@@ -4,11 +4,12 @@ public class Texi {
     int texiNumber;
     int fuelVolume = 100;
     int currentSpeed;
-    int destination;
-    int basicDistance =1;
-    int destinationDistance;
-    int baseRate = 3000;
-    int farePerDistance =1000;
+
+    int destinationDistance = 0;//목적지 거리
+    int baseRate = 3500;
+    int baseDistance;
+    int farePerDistance =100;//거리당 요금
+    int finalPrice = 0;
     int maxPassenger=0;
     int plusspeed;
     int minusspeed;
@@ -133,8 +134,19 @@ public class Texi {
         }
     }
 
+    void destinationRequest(int dis){
+        destinationDistance = dis;
+    }
 
-
+    void rateCalculation(){
+        if(destinationDistance <= baseDistance){
+            finalPrice = baseRate;
+            System.out.println("최종 요금은 " + finalPrice + "입니다.");
+        }else{
+            finalPrice = baseRate + (destinationDistance - baseDistance) * farePerDistance;
+            System.out.println("최종 요금은 " + finalPrice + "입니다.");
+        }
+    }
 
 
 

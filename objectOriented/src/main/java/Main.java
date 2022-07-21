@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args){
         Bus bus = new Bus();
-        //System.out.println(bus.busStatus());
-        //System.out.println(bus.riding());
+
         bus.busStatus(); //버스 현재 상태.
         bus.passengerStatus(); //버스 현재 승객 수
         bus.riding(5);// 버스 탑승할 승객 수 입력
@@ -14,10 +13,6 @@ public class Main {
         bus.riding(20);
         bus.passengerStatus();
         bus.revenue();
-
-        Bus bus2 = new Bus();
-        bus2.passengerStatus();
-
 
 
         Texi texi = new Texi();
@@ -31,6 +26,8 @@ public class Main {
         texi.acceleration(10);
         texi.speedControlUp(30);
         texi.speedControlDown(50);
+        texi.destinationRequest(11);
+        texi.rateCalculation();
 
 
 
