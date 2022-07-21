@@ -19,6 +19,24 @@ public class Main {
         bus2.passengerStatus();
 
 
+<<<<<<< HEAD
+=======
+        Texi texi = new Texi();
+
+
+
+        texi.peopleride1(0);    //불가능 뜨면 밑에 전부 지우는거 어케하지? //태운 손님 0일시 일반 1일시 운행 중
+        texi.peopleride2();
+        texi.texiStatus();
+        texi.passengerBoarding1(1);
+        texi.acceleration(10);
+        texi.speedControlUp(30);
+        texi.speedControlDown(50);
+
+
+
+
+>>>>>>> 7bec2809847315f2ab6590c284df55110446b1f4
 
     }
 }
