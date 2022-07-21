@@ -74,7 +74,7 @@ public class Texi {
                 return false;
             }
             if (maxPassenger > 4) {
-                System.out.println("인원 초과로 탑승 불가입니다.");
+                System.out.println(people + "명이 왔지만. 인원초과로 "+(maxPassenger-4)+"명은 탑승 하지 못했습니다");
                 return true;
             }
         }
@@ -88,7 +88,7 @@ public class Texi {
 
         if (status.equals("일반")) {
             if (maxPassenger > 4) {
-                System.out.println("인원 초과로 탑승 불가입니다.");
+
             }else {
 
                 currentSpeed += speed;
@@ -107,7 +107,7 @@ public class Texi {
     void speedControlUp(int speedup){
         if (status.equals("일반")) {
             if (maxPassenger > 4) {
-                System.out.println("인원 초과로 탑승 불가입니다.");
+
             }else {
                 plusspeed += speedup;
                 System.out.println("빨리가자 하셨으니 " + plusspeed + "만큼 더 달립니다");
@@ -120,7 +120,7 @@ public class Texi {
     void speedControlDown(int speeddown){
         if (status.equals("일반")) {
             if (maxPassenger > 4) {
-                System.out.println("인원 초과로 탑승 불가입니다.");
+
             }else {
                 minusspeed += speeddown;
 
